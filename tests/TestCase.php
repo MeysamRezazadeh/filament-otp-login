@@ -1,8 +1,8 @@
 <?php
 
-namespace Afsakar\FilamentOtpLogin\Tests;
+namespace Meysamrezazadeh\FilamentOtpLogin\Tests;
 
-use Afsakar\FilamentOtpLogin\FilamentOtpLoginServiceProvider;
+use Meysamrezazadeh\FilamentOtpLogin\FilamentOtpLoginServiceProvider;
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
@@ -25,7 +25,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Afsakar\\FilamentOtpLogin\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Meysamrezazadeh\\FilamentOtpLogin\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

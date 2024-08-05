@@ -1,9 +1,9 @@
 <?php
 
-namespace Afsakar\FilamentOtpLogin;
+namespace Meysamrezazadeh\FilamentOtpLogin;
 
-use Afsakar\FilamentOtpLogin\Filament\Pages\Login;
-use Afsakar\FilamentOtpLogin\Filament\Pages\Register;
+use Meysamrezazadeh\FilamentOtpLogin\Filament\Pages\Login;
+use Meysamrezazadeh\FilamentOtpLogin\Filament\Pages\Register;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 

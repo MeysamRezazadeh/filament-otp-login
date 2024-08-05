@@ -1,6 +1,6 @@
 <?php
 
-namespace Afsakar\FilamentOtpLogin\Channels;
+namespace Meysamrezazadeh\FilamentOtpLogin\Channels;
 
 use Illuminate\Notifications\Notification;
 

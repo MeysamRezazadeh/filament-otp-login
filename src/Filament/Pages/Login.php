@@ -1,10 +1,10 @@
 <?php
 
-namespace Afsakar\FilamentOtpLogin\Filament\Pages;
+namespace Meysamrezazadeh\FilamentOtpLogin\Filament\Pages;
 
-use Afsakar\FilamentOtpLogin\Filament\Forms\OtpInput;
-use Afsakar\FilamentOtpLogin\Models\OtpCode;
-use Afsakar\FilamentOtpLogin\Notifications\SendOtpCode;
+use Meysamrezazadeh\FilamentOtpLogin\Filament\Forms\OtpInput;
+use Meysamrezazadeh\FilamentOtpLogin\Models\OtpCode;
+use Meysamrezazadeh\FilamentOtpLogin\Notifications\SendOtpCode;
 use DanHarrin\LivewireRateLimiting\Exceptions\TooManyRequestsException;
 use DanHarrin\LivewireRateLimiting\WithRateLimiting;
 use Filament\Actions\Action;

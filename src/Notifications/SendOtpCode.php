@@ -1,11 +1,11 @@
 <?php
 
-namespace Afsakar\FilamentOtpLogin\Notifications;
+namespace Meysamrezazadeh\FilamentOtpLogin\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use Afsakar\FilamentOtpLogin\Channels\SmsChannel;
+use Meysamrezazadeh\FilamentOtpLogin\Channels\SmsChannel;
 
 class SendOtpCode extends Notification
 {
@@ -57,7 +57,7 @@ class SendOtpCode extends Notification
      * Get the sms representation of the notification.
      *
      * @param  mixed  $notifiable
-     * @return \Afsakar\FilamentOtpLogin\Channels\SmsChannel
+     * @return \Meysamrezazadeh\FilamentOtpLogin\Channels\SmsChannel
      */
     public function toSms($notifiable)
     {

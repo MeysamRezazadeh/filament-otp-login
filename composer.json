@@ -1,16 +1,10 @@
 {
-    "name": "afsakar/filament-otp-login",
+    "name": "Meysamrezazadeh/filament-otp-login",
     "description": "OTP Login for FilamentPHP",
     "keywords": [
-        "afsakar",
         "laravel",
         "filament-otp-login"
     ],
-    "homepage": "https://github.com/afsakar/filament-otp-login",
-    "support": {
-        "issues": "https://github.com/afsakar/filament-otp-login/issues",
-        "source": "https://github.com/afsakar/filament-otp-login"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -40,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Afsakar\\FilamentOtpLogin\\": "src/",
-            "Afsakar\\FilamentOtpLogin\\Database\\Factories\\": "database/factories/"
+            "Meysamrezazadeh\\FilamentOtpLogin\\": "src/",
+            "Meysamrezazadeh\\FilamentOtpLogin\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Afsakar\\FilamentOtpLogin\\Tests\\": "tests/"
+            "Meysamrezazadeh\\FilamentOtpLogin\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -71,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Afsakar\\FilamentOtpLogin\\FilamentOtpLoginServiceProvider"
+                "Meysamrezazadeh\\FilamentOtpLogin\\FilamentOtpLoginServiceProvider"
             ],
             "aliases": {
-                "FilamentOtpLogin": "Afsakar\\FilamentOtpLogin\\Facades\\FilamentOtpLogin"
+                "FilamentOtpLogin": "Meysamrezazadeh\\FilamentOtpLogin\\Facades\\FilamentOtpLogin"
             }
         }
     },
